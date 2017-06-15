@@ -1,0 +1,225 @@
+<html>
+<head>
+  
+    <style type='text/css'>
+   
+   .tests{ 
+     width : 50%;
+     float : left;
+   }
+   
+   .mutees{
+     float : right;
+     width : 50%;
+   }
+   
+   .unit {
+     padding-top : 20px;
+     clear : both;
+   }
+   
+   .coverage_bar {
+    display : inline-block;
+    height : 1.1em;
+    width: 130px;
+    background: #FAA;
+    margin: 0 5px;
+    vertical-align: middle;
+    border: 1px solid #AAA;
+    position : relative;
+   }
+   
+   .coverage_complete {
+    display : inline-block;
+    height : 100%;
+    background: #DFD;
+    float: left;
+   }
+   
+   .coverage_ledgend {
+        position : absolute;
+        height : 100%;
+        width: 100%;
+        left : 0;
+        top : 0;
+        text-align : center;
+   }
+   
+   .line, .mut {
+        vertical-align : middle;
+   }
+   
+   .coveragePercentage {
+        display: inline-block;
+        width: 3em;
+        text-align: right;
+   }
+  </style>
+  
+</head>
+<body>
+
+<h1>Pit Test Coverage Report</h1>
+<h2>Package Summary</h2>
+<h3>com.puppycrawl.tools.checkstyle.checks.javadoc</h3>
+<table>
+    <thead>
+        <tr>
+            <th>Number of Classes</th>
+            <th>Line Coverage</th>
+            <th>Mutation Coverage</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>20</td>
+            <td>100% <div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">1327/1328</div></div></td>
+            <td>95% <div class="coverage_bar"><div class="coverage_complete" style="width:95%"></div><div class="coverage_ledgend">744/781</div></div></td>
+        </tr>
+    </tbody>
+</table>
+
+
+<h3>Breakdown by Class</h3>
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Line Coverage</th>
+            <th>Mutation Coverage</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td><a href="./AbstractJavadocCheck.java.html">AbstractJavadocCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">93/93</div></div></td>
+            <td><div class="coveragePercentage">88% </div><div class="coverage_bar"><div class="coverage_complete" style="width:88%"></div><div class="coverage_ledgend">50/57</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./AtclauseOrderCheck.java.html">AtclauseOrderCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">43/43</div></div></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">23/23</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./HtmlTag.java.html">HtmlTag.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">18/18</div></div></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">12/12</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./InvalidJavadocTag.java.html">InvalidJavadocTag.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">8/8</div></div></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">3/3</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./JavadocMethodCheck.java.html">JavadocMethodCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">342/342</div></div></td>
+            <td><div class="coveragePercentage">97% </div><div class="coverage_bar"><div class="coverage_complete" style="width:97%"></div><div class="coverage_ledgend">158/163</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./JavadocNodeImpl.java.html">JavadocNodeImpl.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">27/27</div></div></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">9/9</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./JavadocPackageCheck.java.html">JavadocPackageCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">20/20</div></div></td>
+            <td><div class="coveragePercentage">70% </div><div class="coverage_bar"><div class="coverage_complete" style="width:70%"></div><div class="coverage_ledgend">7/10</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./JavadocParagraphCheck.java.html">JavadocParagraphCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">76/76</div></div></td>
+            <td><div class="coveragePercentage">96% </div><div class="coverage_bar"><div class="coverage_complete" style="width:96%"></div><div class="coverage_ledgend">52/54</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./JavadocStyleCheck.java.html">JavadocStyleCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">158/158</div></div></td>
+            <td><div class="coveragePercentage">97% </div><div class="coverage_bar"><div class="coverage_complete" style="width:97%"></div><div class="coverage_ledgend">88/91</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./JavadocTag.java.html">JavadocTag.java</a></td>
+            <td><div class="coveragePercentage">95% </div><div class="coverage_bar"><div class="coverage_complete" style="width:95%"></div><div class="coverage_ledgend">18/19</div></div></td>
+            <td><div class="coveragePercentage">71% </div><div class="coverage_bar"><div class="coverage_complete" style="width:71%"></div><div class="coverage_ledgend">17/24</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./JavadocTagContinuationIndentationCheck.java.html">JavadocTagContinuationIndentationCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">36/36</div></div></td>
+            <td><div class="coveragePercentage">95% </div><div class="coverage_bar"><div class="coverage_complete" style="width:95%"></div><div class="coverage_ledgend">19/20</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./JavadocTagInfo.java.html">JavadocTagInfo.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">134/134</div></div></td>
+            <td><div class="coveragePercentage">98% </div><div class="coverage_bar"><div class="coverage_complete" style="width:98%"></div><div class="coverage_ledgend">92/94</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./JavadocTags.java.html">JavadocTags.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">8/8</div></div></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">2/2</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./JavadocTypeCheck.java.html">JavadocTypeCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">91/91</div></div></td>
+            <td><div class="coveragePercentage">98% </div><div class="coverage_bar"><div class="coverage_complete" style="width:98%"></div><div class="coverage_ledgend">53/54</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./JavadocVariableCheck.java.html">JavadocVariableCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">33/33</div></div></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">20/20</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./NonEmptyAtclauseDescriptionCheck.java.html">NonEmptyAtclauseDescriptionCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">10/10</div></div></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">7/7</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./SingleLineJavadocCheck.java.html">SingleLineJavadocCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">30/30</div></div></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">18/18</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./SummaryJavadocCheck.java.html">SummaryJavadocCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">55/55</div></div></td>
+            <td><div class="coveragePercentage">97% </div><div class="coverage_bar"><div class="coverage_complete" style="width:97%"></div><div class="coverage_ledgend">28/29</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./TagParser.java.html">TagParser.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">87/87</div></div></td>
+            <td><div class="coveragePercentage">95% </div><div class="coverage_bar"><div class="coverage_complete" style="width:95%"></div><div class="coverage_ledgend">63/66</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./WriteTagCheck.java.html">WriteTagCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">40/40</div></div></td>
+            <td><div class="coveragePercentage">92% </div><div class="coverage_bar"><div class="coverage_complete" style="width:92%"></div><div class="coverage_ledgend">23/25</div></div></td>
+        </tr>
+
+     </tbody>
+</table>
+<br/>
+
+
+
+<hr/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.2.0
+
+</body>
+</html>

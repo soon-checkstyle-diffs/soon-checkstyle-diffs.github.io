@@ -1,0 +1,369 @@
+<html>
+<head>
+  
+    <style type='text/css'>
+   
+   .tests{ 
+     width : 50%;
+     float : left;
+   }
+   
+   .mutees{
+     float : right;
+     width : 50%;
+   }
+   
+   .unit {
+     padding-top : 20px;
+     clear : both;
+   }
+   
+   .coverage_bar {
+    display : inline-block;
+    height : 1.1em;
+    width: 130px;
+    background: #FAA;
+    margin: 0 5px;
+    vertical-align: middle;
+    border: 1px solid #AAA;
+    position : relative;
+   }
+   
+   .coverage_complete {
+    display : inline-block;
+    height : 100%;
+    background: #DFD;
+    float: left;
+   }
+   
+   .coverage_ledgend {
+        position : absolute;
+        height : 100%;
+        width: 100%;
+        left : 0;
+        top : 0;
+        text-align : center;
+   }
+   
+   .line, .mut {
+        vertical-align : middle;
+   }
+   
+   .coveragePercentage {
+        display: inline-block;
+        width: 3em;
+        text-align: right;
+   }
+  </style>
+  
+</head>
+<body>
+
+<h1>Pit Test Coverage Report</h1>
+<h2>Package Summary</h2>
+<h3>com.puppycrawl.tools.checkstyle.checks.coding</h3>
+<table>
+    <thead>
+        <tr>
+            <th>Number of Classes</th>
+            <th>Line Coverage</th>
+            <th>Mutation Coverage</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>44</td>
+            <td>100% <div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">2831/2831</div></div></td>
+            <td>95% <div class="coverage_bar"><div class="coverage_complete" style="width:95%"></div><div class="coverage_ledgend">1389/1464</div></div></td>
+        </tr>
+    </tbody>
+</table>
+
+
+<h3>Breakdown by Class</h3>
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Line Coverage</th>
+            <th>Mutation Coverage</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td><a href="./AbstractSuperCheck.java.html">AbstractSuperCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">68/68</div></div></td>
+            <td><div class="coveragePercentage">94% </div><div class="coverage_bar"><div class="coverage_complete" style="width:94%"></div><div class="coverage_ledgend">33/35</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./ArrayTrailingCommaCheck.java.html">ArrayTrailingCommaCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">13/13</div></div></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">9/9</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./AvoidInlineConditionalsCheck.java.html">AvoidInlineConditionalsCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">6/6</div></div></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">4/4</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./CovariantEqualsCheck.java.html">CovariantEqualsCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">31/31</div></div></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">15/15</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./DeclarationOrderCheck.java.html">DeclarationOrderCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">86/86</div></div></td>
+            <td><div class="coveragePercentage">98% </div><div class="coverage_bar"><div class="coverage_complete" style="width:98%"></div><div class="coverage_ledgend">46/47</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./DefaultComesLastCheck.java.html">DefaultComesLastCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">26/26</div></div></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">16/16</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./EmptyStatementCheck.java.html">EmptyStatementCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">6/6</div></div></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">4/4</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./EqualsAvoidNullCheck.java.html">EqualsAvoidNullCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">186/186</div></div></td>
+            <td><div class="coveragePercentage">99% </div><div class="coverage_bar"><div class="coverage_complete" style="width:99%"></div><div class="coverage_ledgend">106/107</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./EqualsHashCodeCheck.java.html">EqualsHashCodeCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">50/50</div></div></td>
+            <td><div class="coveragePercentage">88% </div><div class="coverage_bar"><div class="coverage_complete" style="width:88%"></div><div class="coverage_ledgend">28/32</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./ExplicitInitializationCheck.java.html">ExplicitInitializationCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">53/53</div></div></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">40/40</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./FallThroughCheck.java.html">FallThroughCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">106/106</div></div></td>
+            <td><div class="coveragePercentage">96% </div><div class="coverage_bar"><div class="coverage_complete" style="width:96%"></div><div class="coverage_ledgend">48/50</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./FinalLocalVariableCheck.java.html">FinalLocalVariableCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">226/226</div></div></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">130/130</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./HiddenFieldCheck.java.html">HiddenFieldCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">153/153</div></div></td>
+            <td><div class="coveragePercentage">98% </div><div class="coverage_bar"><div class="coverage_complete" style="width:98%"></div><div class="coverage_ledgend">88/90</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./IllegalCatchCheck.java.html">IllegalCatchCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">39/39</div></div></td>
+            <td><div class="coveragePercentage">85% </div><div class="coverage_bar"><div class="coverage_complete" style="width:85%"></div><div class="coverage_ledgend">17/20</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./IllegalInstantiationCheck.java.html">IllegalInstantiationCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">105/105</div></div></td>
+            <td><div class="coveragePercentage">89% </div><div class="coverage_bar"><div class="coverage_complete" style="width:89%"></div><div class="coverage_ledgend">42/47</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./IllegalThrowsCheck.java.html">IllegalThrowsCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">37/37</div></div></td>
+            <td><div class="coveragePercentage">76% </div><div class="coverage_bar"><div class="coverage_complete" style="width:76%"></div><div class="coverage_ledgend">19/25</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./IllegalTokenCheck.java.html">IllegalTokenCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">17/17</div></div></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">6/6</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./IllegalTokenTextCheck.java.html">IllegalTokenTextCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">31/31</div></div></td>
+            <td><div class="coveragePercentage">91% </div><div class="coverage_bar"><div class="coverage_complete" style="width:91%"></div><div class="coverage_ledgend">10/11</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./IllegalTypeCheck.java.html">IllegalTypeCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">119/119</div></div></td>
+            <td><div class="coveragePercentage">72% </div><div class="coverage_bar"><div class="coverage_complete" style="width:72%"></div><div class="coverage_ledgend">42/58</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./InnerAssignmentCheck.java.html">InnerAssignmentCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">38/38</div></div></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">26/26</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./MagicNumberCheck.java.html">MagicNumberCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">103/103</div></div></td>
+            <td><div class="coveragePercentage">96% </div><div class="coverage_bar"><div class="coverage_complete" style="width:96%"></div><div class="coverage_ledgend">55/57</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./MissingCtorCheck.java.html">MissingCtorCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">10/10</div></div></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">6/6</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./MissingSwitchDefaultCheck.java.html">MissingSwitchDefaultCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">16/16</div></div></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">8/8</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./ModifiedControlVariableCheck.java.html">ModifiedControlVariableCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">103/103</div></div></td>
+            <td><div class="coveragePercentage">95% </div><div class="coverage_bar"><div class="coverage_complete" style="width:95%"></div><div class="coverage_ledgend">38/40</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./MultipleStringLiteralsCheck.java.html">MultipleStringLiteralsCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">58/58</div></div></td>
+            <td><div class="coveragePercentage">93% </div><div class="coverage_bar"><div class="coverage_complete" style="width:93%"></div><div class="coverage_ledgend">26/28</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./MultipleVariableDeclarationsCheck.java.html">MultipleVariableDeclarationsCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">32/32</div></div></td>
+            <td><div class="coveragePercentage">81% </div><div class="coverage_bar"><div class="coverage_complete" style="width:81%"></div><div class="coverage_ledgend">17/21</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./NestedForDepthCheck.java.html">NestedForDepthCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">15/15</div></div></td>
+            <td><div class="coveragePercentage">88% </div><div class="coverage_bar"><div class="coverage_complete" style="width:88%"></div><div class="coverage_ledgend">7/8</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./NestedIfDepthCheck.java.html">NestedIfDepthCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">17/17</div></div></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">10/10</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./NestedTryDepthCheck.java.html">NestedTryDepthCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">15/15</div></div></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">8/8</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./NoCloneCheck.java.html">NoCloneCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">13/13</div></div></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">7/7</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./NoFinalizerCheck.java.html">NoFinalizerCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">13/13</div></div></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">7/7</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./OneStatementPerLineCheck.java.html">OneStatementPerLineCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">61/61</div></div></td>
+            <td><div class="coveragePercentage">97% </div><div class="coverage_bar"><div class="coverage_complete" style="width:97%"></div><div class="coverage_ledgend">28/29</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./OverloadMethodsDeclarationOrderCheck.java.html">OverloadMethodsDeclarationOrderCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">29/29</div></div></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">16/16</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./PackageDeclarationCheck.java.html">PackageDeclarationCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">27/27</div></div></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">10/10</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./ParameterAssignmentCheck.java.html">ParameterAssignmentCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">51/51</div></div></td>
+            <td><div class="coveragePercentage">90% </div><div class="coverage_bar"><div class="coverage_complete" style="width:90%"></div><div class="coverage_ledgend">18/20</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./RequireThisCheck.java.html">RequireThisCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">461/461</div></div></td>
+            <td><div class="coveragePercentage">97% </div><div class="coverage_bar"><div class="coverage_complete" style="width:97%"></div><div class="coverage_ledgend">216/222</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./ReturnCountCheck.java.html">ReturnCountCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">57/57</div></div></td>
+            <td><div class="coveragePercentage">95% </div><div class="coverage_bar"><div class="coverage_complete" style="width:95%"></div><div class="coverage_ledgend">21/22</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./SimplifyBooleanExpressionCheck.java.html">SimplifyBooleanExpressionCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">9/9</div></div></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">4/4</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./SimplifyBooleanReturnCheck.java.html">SimplifyBooleanReturnCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">28/28</div></div></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">19/19</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./StringLiteralEqualityCheck.java.html">StringLiteralEqualityCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">11/11</div></div></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">6/6</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./SuperCloneCheck.java.html">SuperCloneCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">2/2</div></div></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">1/1</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./SuperFinalizeCheck.java.html">SuperFinalizeCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">2/2</div></div></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">1/1</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./UnnecessaryParenthesesCheck.java.html">UnnecessaryParenthesesCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">52/52</div></div></td>
+            <td><div class="coveragePercentage">93% </div><div class="coverage_bar"><div class="coverage_complete" style="width:93%"></div><div class="coverage_ledgend">43/46</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./VariableDeclarationUsageDistanceCheck.java.html">VariableDeclarationUsageDistanceCheck.java</a></td>
+            <td><div class="coveragePercentage">100% </div><div class="coverage_bar"><div class="coverage_complete" style="width:100%"></div><div class="coverage_ledgend">250/250</div></div></td>
+            <td><div class="coveragePercentage">92% </div><div class="coverage_bar"><div class="coverage_complete" style="width:92%"></div><div class="coverage_ledgend">88/96</div></div></td>
+        </tr>
+
+     </tbody>
+</table>
+<br/>
+
+
+
+<hr/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.2.0
+
+</body>
+</html>
